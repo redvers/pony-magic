@@ -1,0 +1,30 @@
+{
+  "types": {
+    "String": {
+      "ponytypein": "String",
+      "ponytypeinconv": ".cstring()",
+      "ponytypeout": "String",
+      "ponytypeoutconv": [ "var pcstring: Pointer[U8] = ", "let p: String iso = String.from_cstring(pcstring).clone()\n    consume p" ],
+      "structtype": "Pointer[U8]",
+      "structdef": "Pointer[U8]",
+      "argtype": "Pointer[U8] tag",
+      "rvtype": "Pointer[U8]"
+    },
+    "Array[String]": {
+      "ponytypein": "Array[String]",
+      "ponytypeinconv": "",
+      "ponytypeout": "Pointer[Pointer[U8]]",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "Pointer[Pointer[U8]]",
+      "structdef": "Pointer[Pointer[U8]]",
+      "argtype": "Pointer[Pointer[U8]] tag",
+      "rvtype": "Pointer[Pointer[U8]]"
+    }
+  },
+  "structs": [
+    { "structname": "Magicset", "fields": [
+ ]
+    }
+  ]
+}
+

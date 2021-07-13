@@ -1,0 +1,236 @@
+{
+  "types": {
+    "String": {
+      "ponytypein": "String",
+      "ponytypeinconv": ".cstring()",
+      "ponytypeout": "String",
+      "ponytypeoutconv": [ "var pcstring: Pointer[U8] = ", "let p: String iso = String.from_cstring(pcstring).clone()\n    consume p" ],
+      "structtype": "Pointer[U8]",
+      "structdef": "Pointer[U8]",
+      "argtype": "Pointer[U8] tag",
+      "rvtype": "Pointer[U8]"
+    },
+    "Array[String]": {
+      "ponytypein": "Array[String]",
+      "ponytypeinconv": "",
+      "ponytypeout": "Pointer[Pointer[U8]]",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "Pointer[Pointer[U8]]",
+      "structdef": "Pointer[Pointer[U8]]",
+      "argtype": "Pointer[Pointer[U8]] tag",
+      "rvtype": "Pointer[Pointer[U8]]"
+    },
+    "Pointer[U64]": {
+      "ponytypein": "Pointer[U64] tag",
+      "ponytypeinconv": "",
+      "ponytypeout": "Pointer[U64]",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "Pointer[U64]",
+      "structdef": "Pointer[U64]",
+      "argtype": "Pointer[U64] tag",
+      "rvtype": "Pointer[U64]"
+    },
+    "Pointer[None]": {
+      "ponytypein": "Pointer[None] tag",
+      "ponytypeinconv": "",
+      "ponytypeout": "Pointer[None]",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "Pointer[None]",
+      "structdef": "Pointer[None]",
+      "argtype": "Pointer[None] tag",
+      "rvtype": "Pointer[None]"
+    },
+    "I32": {
+      "ponytypein": "I32",
+      "ponytypeinconv": "",
+      "ponytypeout": "I32",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "I32",
+      "structdef": "I32(0)",
+      "argtype": "I32",
+      "rvtype": "I32"
+    },
+    "NullablePointer[Magicset]": {
+      "ponytypein": "NullablePointer[Magicset] tag",
+      "ponytypeinconv": "",
+      "ponytypeout": "NullablePointer[Magicset]",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "NullablePointer[Magicset]",
+      "structdef": "NullablePointer[Magicset]",
+      "argtype": "NullablePointer[Magicset] tag",
+      "rvtype": "NullablePointer[Magicset]"
+    },
+    "None": {
+      "ponytypein": "None tag",
+      "ponytypeinconv": "",
+      "ponytypeout": "None",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "None",
+      "structdef": "None",
+      "argtype": "None tag",
+      "rvtype": "None"
+    },
+    "NullablePointer[Pointer[None]]": {
+      "ponytypein": "NullablePointer[Pointer[None]] tag",
+      "ponytypeinconv": "",
+      "ponytypeout": "NullablePointer[Pointer[None]]",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "NullablePointer[Pointer[None]]",
+      "structdef": "NullablePointer[Pointer[None]]",
+      "argtype": "NullablePointer[Pointer[None]] tag",
+      "rvtype": "NullablePointer[Pointer[None]]"
+    },
+    "U64": {
+      "ponytypein": "U64",
+      "ponytypeinconv": "",
+      "ponytypeout": "U64",
+      "ponytypeoutconv": [ "" ],
+      "structtype": "U64",
+      "structdef": "U64(0)",
+      "argtype": "U64",
+      "rvtype": "U64"
+    }
+  },
+  "use": [
+    {     "name": "magic_open",
+      "ponyname": "pmagic_open",
+            "rv": "NullablePointer[Magicset]", "args": 
+      [ 
+        { "name": "pparg0", "type": "I32" }
+      ]
+    },
+    {     "name": "magic_close",
+      "ponyname": "pmagic_close",
+            "rv": "None", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }
+      ]
+    },
+    {     "name": "magic_getpath",
+      "ponyname": "pmagic_getpath",
+            "rv": "String", "args": 
+      [ 
+        { "name": "pparg0", "type": "String" }, 
+        { "name": "pparg1", "type": "I32" }
+      ]
+    },
+    {     "name": "magic_file",
+      "ponyname": "pmagic_file",
+            "rv": "String", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "String" }
+      ]
+    },
+    {     "name": "magic_descriptor",
+      "ponyname": "pmagic_descriptor",
+            "rv": "String", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "I32" }
+      ]
+    },
+    {     "name": "magic_buffer",
+      "ponyname": "pmagic_buffer",
+            "rv": "String", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "Pointer[None]" }, 
+        { "name": "pparg2", "type": "U64" }
+      ]
+    },
+    {     "name": "magic_error",
+      "ponyname": "pmagic_error",
+            "rv": "String", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }
+      ]
+    },
+    {     "name": "magic_getflags",
+      "ponyname": "pmagic_getflags",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }
+      ]
+    },
+    {     "name": "magic_setflags",
+      "ponyname": "pmagic_setflags",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "I32" }
+      ]
+    },
+    {     "name": "magic_version",
+      "ponyname": "pmagic_version",
+            "rv": "I32", "args": [] },
+    {     "name": "magic_load",
+      "ponyname": "pmagic_load",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "String" }
+      ]
+    },
+    {     "name": "magic_load_buffers",
+      "ponyname": "pmagic_load_buffers",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "NullablePointer[Pointer[None]]" }, 
+        { "name": "pparg2", "type": "Pointer[U64]" }, 
+        { "name": "pparg3", "type": "U64" }
+      ]
+    },
+    {     "name": "magic_compile",
+      "ponyname": "pmagic_compile",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "String" }
+      ]
+    },
+    {     "name": "magic_check",
+      "ponyname": "pmagic_check",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "String" }
+      ]
+    },
+    {     "name": "magic_list",
+      "ponyname": "pmagic_list",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "String" }
+      ]
+    },
+    {     "name": "magic_errno",
+      "ponyname": "pmagic_errno",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }
+      ]
+    },
+    {     "name": "magic_setparam",
+      "ponyname": "pmagic_setparam",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "I32" }, 
+        { "name": "pparg2", "type": "Pointer[None]" }
+      ]
+    },
+    {     "name": "magic_getparam",
+      "ponyname": "pmagic_getparam",
+            "rv": "I32", "args": 
+      [ 
+        { "name": "pparg0", "type": "NullablePointer[Magicset]" }, 
+        { "name": "pparg1", "type": "I32" }, 
+        { "name": "pparg2", "type": "Pointer[None]" }
+      ]
+    }
+  ]
+}
+

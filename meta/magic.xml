@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<CastXML format="1.2.1">
+  <Namespace id="_1" name="::" members="_2 _3 _4 _5 _6 _7 _8 _9 _10 _11 _12 _13 _14 _15 _16 _17 _18 _19 _20 _21 _22 _23 _24 _25 _26 _27 _28 _29 _30 _31 _32 _33 _34 _35 _36 _37 _38 _39 _40 _41 _42 _43 _44 _45 _46 _47 _48 _49 _50 _51 _52 _53 _54 _55 _56 _57 _58 _59 _60 _61 _62 _63 _64 _65 _66 _67 _68 _69 _70 _71 _72 _73 _74 _75 _76 _77 _78 _79 _80 _81 _82 _83 _84 _85 _86 _87 _88 _89 _90 _91 _92 _93 _94 _95 _96 _97 _98 _99 _100 _101 _102 _103 _104 _105 _106 _107 _108 _109 _110 _111 _112 _113 _114 _115 _116 _117 _118 _119 _120 _121 _122 _123 _124 _125 _126 _127 _128 _129 _130 _131 _132 _133 _134 _135 _136 _137 _138 _139 _140 _141 _142 _143 _144 _145 _146 _147 _148 _149 _150 _151 _152 _153 _154 _155 _156 _157 _158 _159 _160 _161 _162 _163 _164 _165 _166 _167 _168"/>
+  <Typedef id="_2" name="__int128_t" type="_169" context="_1" location="f0:0" file="f0" line="0"/>
+  <Typedef id="_3" name="__uint128_t" type="_170" context="_1" location="f0:0" file="f0" line="0"/>
+  <Typedef id="_4" name="__NSConstantString" type="_171" context="_1" location="f0:0" file="f0" line="0"/>
+  <Typedef id="_5" name="__builtin_ms_va_list" type="_172" context="_1" location="f0:0" file="f0" line="0"/>
+  <Typedef id="_6" name="__builtin_va_list" type="_173" context="_1" location="f0:0" file="f0" line="0"/>
+  <Typedef id="_7" name="__u_char" type="_174" context="_1" location="f1:30" file="f1" line="30"/>
+  <Typedef id="_8" name="__u_short" type="_175" context="_1" location="f1:31" file="f1" line="31"/>
+  <Typedef id="_9" name="__u_int" type="_176" context="_1" location="f1:32" file="f1" line="32"/>
+  <Typedef id="_10" name="__u_long" type="_177" context="_1" location="f1:33" file="f1" line="33"/>
+  <Typedef id="_11" name="__int8_t" type="_178" context="_1" location="f1:36" file="f1" line="36"/>
+  <Typedef id="_12" name="__uint8_t" type="_174" context="_1" location="f1:37" file="f1" line="37"/>
+  <Typedef id="_13" name="__int16_t" type="_179" context="_1" location="f1:38" file="f1" line="38"/>
+  <Typedef id="_14" name="__uint16_t" type="_175" context="_1" location="f1:39" file="f1" line="39"/>
+  <Typedef id="_15" name="__int32_t" type="_180" context="_1" location="f1:40" file="f1" line="40"/>
+  <Typedef id="_16" name="__uint32_t" type="_176" context="_1" location="f1:41" file="f1" line="41"/>
+  <Typedef id="_17" name="__int64_t" type="_181" context="_1" location="f1:43" file="f1" line="43"/>
+  <Typedef id="_18" name="__uint64_t" type="_177" context="_1" location="f1:44" file="f1" line="44"/>
+  <Typedef id="_19" name="__quad_t" type="_181" context="_1" location="f1:52" file="f1" line="52"/>
+  <Typedef id="_20" name="__u_quad_t" type="_177" context="_1" location="f1:53" file="f1" line="53"/>
+  <Typedef id="_21" name="__intmax_t" type="_181" context="_1" location="f1:61" file="f1" line="61"/>
+  <Typedef id="_22" name="__uintmax_t" type="_177" context="_1" location="f1:62" file="f1" line="62"/>
+  <Typedef id="_23" name="__dev_t" type="_177" context="_1" location="f1:133" file="f1" line="133"/>
+  <Typedef id="_24" name="__uid_t" type="_176" context="_1" location="f1:134" file="f1" line="134"/>
+  <Typedef id="_25" name="__gid_t" type="_176" context="_1" location="f1:135" file="f1" line="135"/>
+  <Typedef id="_26" name="__ino_t" type="_177" context="_1" location="f1:136" file="f1" line="136"/>
+  <Typedef id="_27" name="__ino64_t" type="_177" context="_1" location="f1:137" file="f1" line="137"/>
+  <Typedef id="_28" name="__mode_t" type="_176" context="_1" location="f1:138" file="f1" line="138"/>
+  <Typedef id="_29" name="__nlink_t" type="_177" context="_1" location="f1:139" file="f1" line="139"/>
+  <Typedef id="_30" name="__off_t" type="_181" context="_1" location="f1:140" file="f1" line="140"/>
+  <Typedef id="_31" name="__off64_t" type="_181" context="_1" location="f1:141" file="f1" line="141"/>
+  <Typedef id="_32" name="__pid_t" type="_180" context="_1" location="f1:142" file="f1" line="142"/>
+  <Struct id="_33" name="" context="_1" location="f1:143" file="f1" line="143" members="_182" size="64" align="32"/>
+  <Typedef id="_34" name="__fsid_t" type="_183" context="_1" location="f1:143" file="f1" line="143"/>
+  <Typedef id="_35" name="__clock_t" type="_181" context="_1" location="f1:144" file="f1" line="144"/>
+  <Typedef id="_36" name="__rlim_t" type="_177" context="_1" location="f1:145" file="f1" line="145"/>
+  <Typedef id="_37" name="__rlim64_t" type="_177" context="_1" location="f1:146" file="f1" line="146"/>
+  <Typedef id="_38" name="__id_t" type="_176" context="_1" location="f1:147" file="f1" line="147"/>
+  <Typedef id="_39" name="__time_t" type="_181" context="_1" location="f1:148" file="f1" line="148"/>
+  <Typedef id="_40" name="__useconds_t" type="_176" context="_1" location="f1:149" file="f1" line="149"/>
+  <Typedef id="_41" name="__suseconds_t" type="_181" context="_1" location="f1:150" file="f1" line="150"/>
+  <Typedef id="_42" name="__daddr_t" type="_180" context="_1" location="f1:152" file="f1" line="152"/>
+  <Typedef id="_43" name="__key_t" type="_180" context="_1" location="f1:153" file="f1" line="153"/>
+  <Typedef id="_44" name="__clockid_t" type="_180" context="_1" location="f1:156" file="f1" line="156"/>
+  <Typedef id="_45" name="__timer_t" type="_184" context="_1" location="f1:159" file="f1" line="159"/>
+  <Typedef id="_46" name="__blksize_t" type="_181" context="_1" location="f1:162" file="f1" line="162"/>
+  <Typedef id="_47" name="__blkcnt_t" type="_181" context="_1" location="f1:167" file="f1" line="167"/>
+  <Typedef id="_48" name="__blkcnt64_t" type="_181" context="_1" location="f1:168" file="f1" line="168"/>
+  <Typedef id="_49" name="__fsblkcnt_t" type="_177" context="_1" location="f1:171" file="f1" line="171"/>
+  <Typedef id="_50" name="__fsblkcnt64_t" type="_177" context="_1" location="f1:172" file="f1" line="172"/>
+  <Typedef id="_51" name="__fsfilcnt_t" type="_177" context="_1" location="f1:175" file="f1" line="175"/>
+  <Typedef id="_52" name="__fsfilcnt64_t" type="_177" context="_1" location="f1:176" file="f1" line="176"/>
+  <Typedef id="_53" name="__fsword_t" type="_181" context="_1" location="f1:179" file="f1" line="179"/>
+  <Typedef id="_54" name="__ssize_t" type="_181" context="_1" location="f1:181" file="f1" line="181"/>
+  <Typedef id="_55" name="__syscall_slong_t" type="_181" context="_1" location="f1:184" file="f1" line="184"/>
+  <Typedef id="_56" name="__syscall_ulong_t" type="_177" context="_1" location="f1:186" file="f1" line="186"/>
+  <Typedef id="_57" name="__loff_t" type="_31" context="_1" location="f1:190" file="f1" line="190"/>
+  <Typedef id="_58" name="__caddr_t" type="_172" context="_1" location="f1:191" file="f1" line="191"/>
+  <Typedef id="_59" name="__intptr_t" type="_181" context="_1" location="f1:194" file="f1" line="194"/>
+  <Typedef id="_60" name="__socklen_t" type="_176" context="_1" location="f1:197" file="f1" line="197"/>
+  <Typedef id="_61" name="__sig_atomic_t" type="_180" context="_1" location="f1:202" file="f1" line="202"/>
+  <Typedef id="_62" name="u_char" type="_7" context="_1" location="f2:33" file="f2" line="33"/>
+  <Typedef id="_63" name="u_short" type="_8" context="_1" location="f2:34" file="f2" line="34"/>
+  <Typedef id="_64" name="u_int" type="_9" context="_1" location="f2:35" file="f2" line="35"/>
+  <Typedef id="_65" name="u_long" type="_10" context="_1" location="f2:36" file="f2" line="36"/>
+  <Typedef id="_66" name="quad_t" type="_19" context="_1" location="f2:37" file="f2" line="37"/>
+  <Typedef id="_67" name="u_quad_t" type="_20" context="_1" location="f2:38" file="f2" line="38"/>
+  <Typedef id="_68" name="fsid_t" type="_34" context="_1" location="f2:39" file="f2" line="39"/>
+  <Typedef id="_69" name="loff_t" type="_57" context="_1" location="f2:44" file="f2" line="44"/>
+  <Typedef id="_70" name="ino_t" type="_26" context="_1" location="f2:48" file="f2" line="48"/>
+  <Typedef id="_71" name="dev_t" type="_23" context="_1" location="f2:60" file="f2" line="60"/>
+  <Typedef id="_72" name="gid_t" type="_25" context="_1" location="f2:65" file="f2" line="65"/>
+  <Typedef id="_73" name="mode_t" type="_28" context="_1" location="f2:70" file="f2" line="70"/>
+  <Typedef id="_74" name="nlink_t" type="_29" context="_1" location="f2:75" file="f2" line="75"/>
+  <Typedef id="_75" name="uid_t" type="_24" context="_1" location="f2:80" file="f2" line="80"/>
+  <Typedef id="_76" name="off_t" type="_30" context="_1" location="f2:86" file="f2" line="86"/>
+  <Typedef id="_77" name="pid_t" type="_32" context="_1" location="f2:98" file="f2" line="98"/>
+  <Typedef id="_78" name="id_t" type="_38" context="_1" location="f2:104" file="f2" line="104"/>
+  <Typedef id="_79" name="ssize_t" type="_54" context="_1" location="f2:109" file="f2" line="109"/>
+  <Typedef id="_80" name="daddr_t" type="_42" context="_1" location="f2:115" file="f2" line="115"/>
+  <Typedef id="_81" name="caddr_t" type="_58" context="_1" location="f2:116" file="f2" line="116"/>
+  <Typedef id="_82" name="key_t" type="_43" context="_1" location="f2:122" file="f2" line="122"/>
+  <Typedef id="_83" name="clock_t" type="_35" context="_1" location="f3:7" file="f3" line="7"/>
+  <Typedef id="_84" name="clockid_t" type="_44" context="_1" location="f4:7" file="f4" line="7"/>
+  <Typedef id="_85" name="time_t" type="_39" context="_1" location="f5:7" file="f5" line="7"/>
+  <Typedef id="_86" name="timer_t" type="_45" context="_1" location="f6:7" file="f6" line="7"/>
+  <Typedef id="_87" name="size_t" type="_177" context="_1" location="f7:209" file="f7" line="209"/>
+  <Typedef id="_88" name="ulong" type="_177" context="_1" location="f2:149" file="f2" line="149"/>
+  <Typedef id="_89" name="ushort" type="_175" context="_1" location="f2:150" file="f2" line="150"/>
+  <Typedef id="_90" name="uint" type="_176" context="_1" location="f2:151" file="f2" line="151"/>
+  <Typedef id="_91" name="int8_t" type="_11" context="_1" location="f8:24" file="f8" line="24"/>
+  <Typedef id="_92" name="int16_t" type="_13" context="_1" location="f8:25" file="f8" line="25"/>
+  <Typedef id="_93" name="int32_t" type="_15" context="_1" location="f8:26" file="f8" line="26"/>
+  <Typedef id="_94" name="int64_t" type="_17" context="_1" location="f8:27" file="f8" line="27"/>
+  <Typedef id="_95" name="u_int8_t" type="_174" context="_1" location="f2:178" file="f2" line="178"/>
+  <Typedef id="_96" name="u_int16_t" type="_175" context="_1" location="f2:179" file="f2" line="179"/>
+  <Typedef id="_97" name="u_int32_t" type="_176" context="_1" location="f2:180" file="f2" line="180"/>
+  <Typedef id="_98" name="u_int64_t" type="_177" context="_1" location="f2:181" file="f2" line="181"/>
+  <Typedef id="_99" name="register_t" type="_181" context="_1" location="f2:183" file="f2" line="183"/>
+  <Function id="_100" name="__uint16_identity" returns="_14" context="_1" location="f9:33" file="f9" line="33" static="1" inline="1" mangled="_ZL17__uint16_identity">
+    <Argument name="__x" type="_14" location="f9:33" file="f9" line="33"/>
+  </Function>
+  <Function id="_101" name="__uint32_identity" returns="_16" context="_1" location="f9:39" file="f9" line="39" static="1" inline="1" mangled="_ZL17__uint32_identity">
+    <Argument name="__x" type="_16" location="f9:39" file="f9" line="39"/>
+  </Function>
+  <Function id="_102" name="__uint64_identity" returns="_18" context="_1" location="f9:45" file="f9" line="45" static="1" inline="1" mangled="_ZL17__uint64_identity">
+    <Argument name="__x" type="_18" location="f9:45" file="f9" line="45"/>
+  </Function>
+  <Struct id="_103" name="" context="_1" location="f10:5" file="f10" line="5" members="_185" size="1024" align="64"/>
+  <Typedef id="_104" name="__sigset_t" type="_186" context="_1" location="f10:8" file="f10" line="8"/>
+  <Typedef id="_105" name="sigset_t" type="_104" context="_1" location="f11:7" file="f11" line="7"/>
+  <Struct id="_106" name="timeval" context="_1" location="f12:8" file="f12" line="8" members="_187 _188" size="128" align="64"/>
+  <Struct id="_107" name="timespec" context="_1" location="f13:8" file="f13" line="8" members="_189 _190" size="128" align="64"/>
+  <Typedef id="_108" name="suseconds_t" type="_41" context="_1" location="f14:43" file="f14" line="43"/>
+  <Typedef id="_109" name="__fd_mask" type="_181" context="_1" location="f14:49" file="f14" line="49"/>
+  <Struct id="_110" name="" context="_1" location="f14:59" file="f14" line="59" members="_191" size="1024" align="64"/>
+  <Typedef id="_111" name="fd_set" type="_192" context="_1" location="f14:70" file="f14" line="70"/>
+  <Typedef id="_112" name="fd_mask" type="_109" context="_1" location="f14:77" file="f14" line="77"/>
+  <Function id="_113" name="select" returns="_180" context="_1" location="f14:101" file="f14" line="101" extern="1" mangled="_Z6select">
+    <Argument name="__nfds" type="_180" location="f14:101" file="f14" line="101"/>
+    <Argument name="__readfds" type="_193r" location="f14:101" file="f14" line="101"/>
+    <Argument name="__writefds" type="_193r" location="f14:102" file="f14" line="102"/>
+    <Argument name="__exceptfds" type="_193r" location="f14:103" file="f14" line="103"/>
+    <Argument name="__timeout" type="_194r" location="f14:104" file="f14" line="104"/>
+  </Function>
+  <Function id="_114" name="pselect" returns="_180" context="_1" location="f14:113" file="f14" line="113" extern="1" mangled="_Z7pselect">
+    <Argument name="__nfds" type="_180" location="f14:113" file="f14" line="113"/>
+    <Argument name="__readfds" type="_193r" location="f14:113" file="f14" line="113"/>
+    <Argument name="__writefds" type="_193r" location="f14:114" file="f14" line="114"/>
+    <Argument name="__exceptfds" type="_193r" location="f14:115" file="f14" line="115"/>
+    <Argument name="__timeout" type="_195r" location="f14:116" file="f14" line="116"/>
+    <Argument name="__sigmask" type="_196r" location="f14:117" file="f14" line="117"/>
+  </Function>
+  <Function id="_115" name="gnu_dev_major" returns="_176" context="_1" location="f15:73" file="f15" line="73" extern="1" mangled="_Z13gnu_dev_major">
+    <Argument name="__dev" type="_23" location="f15:73" file="f15" line="73"/>
+  </Function>
+  <Function id="_116" name="gnu_dev_minor" returns="_176" context="_1" location="f15:74" file="f15" line="74" extern="1" mangled="_Z13gnu_dev_minor">
+    <Argument name="__dev" type="_23" location="f15:74" file="f15" line="74"/>
+  </Function>
+  <Function id="_117" name="gnu_dev_makedev" returns="_23" context="_1" location="f15:75" file="f15" line="75" extern="1" mangled="_Z15gnu_dev_makedev">
+    <Argument name="__major" type="_176" location="f15:75" file="f15" line="75"/>
+    <Argument name="__minor" type="_176" location="f15:75" file="f15" line="75"/>
+  </Function>
+  <Typedef id="_118" name="blksize_t" type="_46" context="_1" location="f2:212" file="f2" line="212"/>
+  <Typedef id="_119" name="blkcnt_t" type="_47" context="_1" location="f2:219" file="f2" line="219"/>
+  <Typedef id="_120" name="fsblkcnt_t" type="_49" context="_1" location="f2:223" file="f2" line="223"/>
+  <Typedef id="_121" name="fsfilcnt_t" type="_51" context="_1" location="f2:227" file="f2" line="227"/>
+  <Struct id="_122" name="__pthread_rwlock_arch_t" context="_1" location="f16:65" file="f16" line="65" members="_197 _198 _199 _200 _201 _202 _203 _204 _205 _206 _207 _208" size="448" align="64"/>
+  <Struct id="_123" name="__pthread_internal_list" context="_1" location="f17:82" file="f17" line="82" members="_209 _210" size="128" align="64"/>
+  <Typedef id="_124" name="__pthread_list_t" type="_211" context="_1" location="f17:86" file="f17" line="86"/>
+  <Struct id="_125" name="__pthread_mutex_s" context="_1" location="f17:118" file="f17" line="118" members="_212 _213 _214 _215 _216 _217 _218 _219" size="320" align="64"/>
+  <Struct id="_126" name="__pthread_cond_s" context="_1" location="f17:151" file="f17" line="151" members="_220 _221 _222 _223 _224 _225 _226 _227 _228 _229 _230 _231 _232" size="384" align="64"/>
+  <Typedef id="_127" name="pthread_t" type="_177" context="_1" location="f18:27" file="f18" line="27"/>
+  <Union id="_128" name="" context="_1" location="f18:32" file="f18" line="32" members="_233 _234" size="32" align="32"/>
+  <Typedef id="_129" name="pthread_mutexattr_t" type="_235" context="_1" location="f18:36" file="f18" line="36"/>
+  <Union id="_130" name="" context="_1" location="f18:41" file="f18" line="41" members="_236 _237" size="32" align="32"/>
+  <Typedef id="_131" name="pthread_condattr_t" type="_238" context="_1" location="f18:45" file="f18" line="45"/>
+  <Typedef id="_132" name="pthread_key_t" type="_176" context="_1" location="f18:49" file="f18" line="49"/>
+  <Typedef id="_133" name="pthread_once_t" type="_180" context="_1" location="f18:53" file="f18" line="53"/>
+  <Union id="_134" name="pthread_attr_t" context="_1" location="f18:56" file="f18" line="56" members="_239 _240" size="448" align="64"/>
+  <Typedef id="_135" name="pthread_attr_t" type="_241" context="_1" location="f18:62" file="f18" line="62"/>
+  <Union id="_136" name="" context="_1" location="f18:67" file="f18" line="67" members="_242 _243 _244" size="320" align="64"/>
+  <Typedef id="_137" name="pthread_mutex_t" type="_245" context="_1" location="f18:72" file="f18" line="72"/>
+  <Union id="_138" name="" context="_1" location="f18:75" file="f18" line="75" members="_246 _247 _248" size="384" align="64"/>
+  <Typedef id="_139" name="pthread_cond_t" type="_249" context="_1" location="f18:80" file="f18" line="80"/>
+  <Union id="_140" name="" context="_1" location="f18:86" file="f18" line="86" members="_250 _251 _252" size="448" align="64"/>
+  <Typedef id="_141" name="pthread_rwlock_t" type="_253" context="_1" location="f18:91" file="f18" line="91"/>
+  <Union id="_142" name="" context="_1" location="f18:93" file="f18" line="93" members="_254 _255" size="64" align="64"/>
+  <Typedef id="_143" name="pthread_rwlockattr_t" type="_256" context="_1" location="f18:97" file="f18" line="97"/>
+  <Typedef id="_144" name="pthread_spinlock_t" type="_180v" context="_1" location="f18:103" file="f18" line="103"/>
+  <Union id="_145" name="" context="_1" location="f18:108" file="f18" line="108" members="_257 _258" size="256" align="64"/>
+  <Typedef id="_146" name="pthread_barrier_t" type="_259" context="_1" location="f18:112" file="f18" line="112"/>
+  <Union id="_147" name="" context="_1" location="f18:114" file="f18" line="114" members="_260 _261" size="32" align="32"/>
+  <Typedef id="_148" name="pthread_barrierattr_t" type="_262" context="_1" location="f18:118" file="f18" line="118"/>
+  <Struct id="_149" name="magic_set" context="_1" location="f19:123" file="f19" line="123" incomplete="1"/>
+  <Typedef id="_150" name="magic_t" type="_263" context="_1" location="f19:123" file="f19" line="123"/>
+  <Function id="_151" name="magic_open" returns="_150" context="_1" location="f19:124" file="f19" line="124" mangled="_Z10magic_open">
+    <Argument type="_180" location="f19:124" file="f19" line="124"/>
+  </Function>
+  <Function id="_152" name="magic_close" returns="_264" context="_1" location="f19:125" file="f19" line="125" mangled="_Z11magic_close">
+    <Argument type="_150" location="f19:125" file="f19" line="125"/>
+  </Function>
+  <Function id="_153" name="magic_getpath" returns="_265" context="_1" location="f19:127" file="f19" line="127" mangled="_Z13magic_getpath">
+    <Argument type="_265" location="f19:127" file="f19" line="127"/>
+    <Argument type="_180" location="f19:127" file="f19" line="127"/>
+  </Function>
+  <Function id="_154" name="magic_file" returns="_265" context="_1" location="f19:128" file="f19" line="128" mangled="_Z10magic_file">
+    <Argument type="_150" location="f19:128" file="f19" line="128"/>
+    <Argument type="_265" location="f19:128" file="f19" line="128"/>
+  </Function>
+  <Function id="_155" name="magic_descriptor" returns="_265" context="_1" location="f19:129" file="f19" line="129" mangled="_Z16magic_descriptor">
+    <Argument type="_150" location="f19:129" file="f19" line="129"/>
+    <Argument type="_180" location="f19:129" file="f19" line="129"/>
+  </Function>
+  <Function id="_156" name="magic_buffer" returns="_265" context="_1" location="f19:130" file="f19" line="130" mangled="_Z12magic_buffer">
+    <Argument type="_150" location="f19:130" file="f19" line="130"/>
+    <Argument type="_266" location="f19:130" file="f19" line="130"/>
+    <Argument type="_87" location="f19:130" file="f19" line="130"/>
+  </Function>
+  <Function id="_157" name="magic_error" returns="_265" context="_1" location="f19:132" file="f19" line="132" mangled="_Z11magic_error">
+    <Argument type="_150" location="f19:132" file="f19" line="132"/>
+  </Function>
+  <Function id="_158" name="magic_getflags" returns="_180" context="_1" location="f19:133" file="f19" line="133" mangled="_Z14magic_getflags">
+    <Argument type="_150" location="f19:133" file="f19" line="133"/>
+  </Function>
+  <Function id="_159" name="magic_setflags" returns="_180" context="_1" location="f19:134" file="f19" line="134" mangled="_Z14magic_setflags">
+    <Argument type="_150" location="f19:134" file="f19" line="134"/>
+    <Argument type="_180" location="f19:134" file="f19" line="134"/>
+  </Function>
+  <Function id="_160" name="magic_version" returns="_180" context="_1" location="f19:136" file="f19" line="136" mangled="_Z13magic_version"/>
+  <Function id="_161" name="magic_load" returns="_180" context="_1" location="f19:137" file="f19" line="137" mangled="_Z10magic_load">
+    <Argument type="_150" location="f19:137" file="f19" line="137"/>
+    <Argument type="_265" location="f19:137" file="f19" line="137"/>
+  </Function>
+  <Function id="_162" name="magic_load_buffers" returns="_180" context="_1" location="f19:138" file="f19" line="138" mangled="_Z18magic_load_buffers">
+    <Argument type="_150" location="f19:138" file="f19" line="138"/>
+    <Argument type="_267" location="f19:138" file="f19" line="138"/>
+    <Argument type="_268" location="f19:138" file="f19" line="138"/>
+    <Argument type="_87" location="f19:138" file="f19" line="138"/>
+  </Function>
+  <Function id="_163" name="magic_compile" returns="_180" context="_1" location="f19:140" file="f19" line="140" mangled="_Z13magic_compile">
+    <Argument type="_150" location="f19:140" file="f19" line="140"/>
+    <Argument type="_265" location="f19:140" file="f19" line="140"/>
+  </Function>
+  <Function id="_164" name="magic_check" returns="_180" context="_1" location="f19:141" file="f19" line="141" mangled="_Z11magic_check">
+    <Argument type="_150" location="f19:141" file="f19" line="141"/>
+    <Argument type="_265" location="f19:141" file="f19" line="141"/>
+  </Function>
+  <Function id="_165" name="magic_list" returns="_180" context="_1" location="f19:142" file="f19" line="142" mangled="_Z10magic_list">
+    <Argument type="_150" location="f19:142" file="f19" line="142"/>
+    <Argument type="_265" location="f19:142" file="f19" line="142"/>
+  </Function>
+  <Function id="_166" name="magic_errno" returns="_180" context="_1" location="f19:143" file="f19" line="143" mangled="_Z11magic_errno">
+    <Argument type="_150" location="f19:143" file="f19" line="143"/>
+  </Function>
+  <Function id="_167" name="magic_setparam" returns="_180" context="_1" location="f19:153" file="f19" line="153" mangled="_Z14magic_setparam">
+    <Argument type="_150" location="f19:153" file="f19" line="153"/>
+    <Argument type="_180" location="f19:153" file="f19" line="153"/>
+    <Argument type="_266" location="f19:153" file="f19" line="153"/>
+  </Function>
+  <Function id="_168" name="magic_getparam" returns="_180" context="_1" location="f19:154" file="f19" line="154" mangled="_Z14magic_getparam">
+    <Argument type="_150" location="f19:154" file="f19" line="154"/>
+    <Argument type="_180" location="f19:154" file="f19" line="154"/>
+    <Argument type="_184" location="f19:154" file="f19" line="154"/>
+  </Function>
+  <FundamentalType id="_169" name="__int128" size="128" align="128"/>
+  <FundamentalType id="_170" name="unsigned __int128" size="128" align="128"/>
+  <Struct id="_171" name="__NSConstantString_tag" context="_1" location="f0:0" file="f0" line="0" members="_269 _270 _271 _272" size="256" align="64"/>
+  <PointerType id="_172" type="_273" size="64" align="64"/>
+  <ArrayType id="_173" min="0" max="0" type="_274"/>
+  <FundamentalType id="_174" name="unsigned char" size="8" align="8"/>
+  <FundamentalType id="_175" name="short unsigned int" size="16" align="16"/>
+  <FundamentalType id="_176" name="unsigned int" size="32" align="32"/>
+  <FundamentalType id="_177" name="long unsigned int" size="64" align="64"/>
+  <FundamentalType id="_178" name="signed char" size="8" align="8"/>
+  <FundamentalType id="_179" name="short int" size="16" align="16"/>
+  <FundamentalType id="_180" name="int" size="32" align="32"/>
+  <CvQualifiedType id="_180v" type="_180" volatile="1"/>
+  <FundamentalType id="_181" name="long int" size="64" align="64"/>
+  <Field id="_182" name="__val" type="_275" context="_33" access="public" location="f1:143" file="f1" line="143" offset="0"/>
+  <ElaboratedType id="_183" type="_33"/>
+  <PointerType id="_184" type="_264" size="64" align="64"/>
+  <Field id="_185" name="__val" type="_276" context="_103" access="public" location="f10:7" file="f10" line="7" offset="0"/>
+  <ElaboratedType id="_186" type="_103"/>
+  <Field id="_187" name="tv_sec" type="_39" context="_106" access="public" location="f12:10" file="f12" line="10" offset="0"/>
+  <Field id="_188" name="tv_usec" type="_41" context="_106" access="public" location="f12:11" file="f12" line="11" offset="64"/>
+  <Field id="_189" name="tv_sec" type="_39" context="_107" access="public" location="f13:10" file="f13" line="10" offset="0"/>
+  <Field id="_190" name="tv_nsec" type="_55" context="_107" access="public" location="f13:11" file="f13" line="11" offset="64"/>
+  <Field id="_191" name="__fds_bits" type="_277" context="_110" access="public" location="f14:67" file="f14" line="67" offset="0"/>
+  <ElaboratedType id="_192" type="_110"/>
+  <PointerType id="_193" type="_111" size="64" align="64"/>
+  <CvQualifiedType id="_193r" type="_193" restrict="1"/>
+  <PointerType id="_194" type="_278" size="64" align="64"/>
+  <CvQualifiedType id="_194r" type="_194" restrict="1"/>
+  <PointerType id="_195" type="_279c" size="64" align="64"/>
+  <CvQualifiedType id="_195r" type="_195" restrict="1"/>
+  <PointerType id="_196" type="_104c" size="64" align="64"/>
+  <CvQualifiedType id="_104c" type="_104" const="1"/>
+  <CvQualifiedType id="_196r" type="_196" restrict="1"/>
+  <Field id="_197" name="__readers" type="_176" context="_122" access="public" location="f16:67" file="f16" line="67" offset="0"/>
+  <Field id="_198" name="__writers" type="_176" context="_122" access="public" location="f16:68" file="f16" line="68" offset="32"/>
+  <Field id="_199" name="__wrphase_futex" type="_176" context="_122" access="public" location="f16:69" file="f16" line="69" offset="64"/>
+  <Field id="_200" name="__writers_futex" type="_176" context="_122" access="public" location="f16:70" file="f16" line="70" offset="96"/>
+  <Field id="_201" name="__pad3" type="_176" context="_122" access="public" location="f16:71" file="f16" line="71" offset="128"/>
+  <Field id="_202" name="__pad4" type="_176" context="_122" access="public" location="f16:72" file="f16" line="72" offset="160"/>
+  <Field id="_203" name="__cur_writer" type="_180" context="_122" access="public" location="f16:74" file="f16" line="74" offset="192"/>
+  <Field id="_204" name="__shared" type="_180" context="_122" access="public" location="f16:75" file="f16" line="75" offset="224"/>
+  <Field id="_205" name="__rwelision" type="_178" context="_122" access="public" location="f16:76" file="f16" line="76" offset="256"/>
+  <Field id="_206" name="__pad1" type="_280" context="_122" access="public" location="f16:81" file="f16" line="81" offset="264"/>
+  <Field id="_207" name="__pad2" type="_177" context="_122" access="public" location="f16:84" file="f16" line="84" offset="320"/>
+  <Field id="_208" name="__flags" type="_176" context="_122" access="public" location="f16:87" file="f16" line="87" offset="384"/>
+  <Field id="_209" name="__prev" type="_281" context="_123" access="public" location="f17:84" file="f17" line="84" offset="0"/>
+  <Field id="_210" name="__next" type="_281" context="_123" access="public" location="f17:85" file="f17" line="85" offset="64"/>
+  <ElaboratedType id="_211" type="_123"/>
+  <Field id="_212" name="__lock" type="_180" context="_125" access="public" location="f17:120" file="f17" line="120" offset="0"/>
+  <Field id="_213" name="__count" type="_176" context="_125" access="public" location="f17:121" file="f17" line="121" offset="32"/>
+  <Field id="_214" name="__owner" type="_180" context="_125" access="public" location="f17:122" file="f17" line="122" offset="64"/>
+  <Field id="_215" name="__nusers" type="_176" context="_125" access="public" location="f17:124" file="f17" line="124" offset="96"/>
+  <Field id="_216" name="__kind" type="_180" context="_125" access="public" location="f17:128" file="f17" line="128" offset="128"/>
+  <Field id="_217" name="__spins" type="_179" context="_125" access="public" location="f17:134" file="f17" line="134" offset="160"/>
+  <Field id="_218" name="__elision" type="_179" context="_125" access="public" location="f17:134" file="f17" line="134" offset="176"/>
+  <Field id="_219" name="__list" type="_124" context="_125" access="public" location="f17:135" file="f17" line="135" offset="192"/>
+  <Union id="_220" context="_126" location="f17:153" file="f17" line="153" members="_282 _283 _284" size="64" align="64"/>
+  <Field id="_221" name="" type="_220" context="_126" location="f17:153" file="f17" line="153" offset="0"/>
+  <Unimplemented id="_222" kind="IndirectField"/>
+  <Unimplemented id="_223" kind="IndirectField"/>
+  <Union id="_224" context="_126" location="f17:162" file="f17" line="162" members="_285 _286 _287" size="64" align="64"/>
+  <Field id="_225" name="" type="_224" context="_126" location="f17:162" file="f17" line="162" offset="64"/>
+  <Unimplemented id="_226" kind="IndirectField"/>
+  <Unimplemented id="_227" kind="IndirectField"/>
+  <Field id="_228" name="__g_refs" type="_288" context="_126" access="public" location="f17:171" file="f17" line="171" offset="128"/>
+  <Field id="_229" name="__g_size" type="_288" context="_126" access="public" location="f17:172" file="f17" line="172" offset="192"/>
+  <Field id="_230" name="__g1_orig_size" type="_176" context="_126" access="public" location="f17:173" file="f17" line="173" offset="256"/>
+  <Field id="_231" name="__wrefs" type="_176" context="_126" access="public" location="f17:174" file="f17" line="174" offset="288"/>
+  <Field id="_232" name="__g_signals" type="_288" context="_126" access="public" location="f17:175" file="f17" line="175" offset="320"/>
+  <Field id="_233" name="__size" type="_289" context="_128" access="public" location="f18:34" file="f18" line="34" offset="0"/>
+  <Field id="_234" name="__align" type="_180" context="_128" access="public" location="f18:35" file="f18" line="35" offset="0"/>
+  <ElaboratedType id="_235" type="_128"/>
+  <Field id="_236" name="__size" type="_289" context="_130" access="public" location="f18:43" file="f18" line="43" offset="0"/>
+  <Field id="_237" name="__align" type="_180" context="_130" access="public" location="f18:44" file="f18" line="44" offset="0"/>
+  <ElaboratedType id="_238" type="_130"/>
+  <Field id="_239" name="__size" type="_290" context="_134" access="public" location="f18:58" file="f18" line="58" offset="0"/>
+  <Field id="_240" name="__align" type="_181" context="_134" access="public" location="f18:59" file="f18" line="59" offset="0"/>
+  <ElaboratedType id="_241" type="_134"/>
+  <Field id="_242" name="__data" type="_291" context="_136" access="public" location="f18:69" file="f18" line="69" offset="0"/>
+  <Field id="_243" name="__size" type="_292" context="_136" access="public" location="f18:70" file="f18" line="70" offset="0"/>
+  <Field id="_244" name="__align" type="_181" context="_136" access="public" location="f18:71" file="f18" line="71" offset="0"/>
+  <ElaboratedType id="_245" type="_136"/>
+  <Field id="_246" name="__data" type="_293" context="_138" access="public" location="f18:77" file="f18" line="77" offset="0"/>
+  <Field id="_247" name="__size" type="_294" context="_138" access="public" location="f18:78" file="f18" line="78" offset="0"/>
+  <Field id="_248" name="__align" type="_295" context="_138" access="public" location="f18:79" file="f18" line="79" offset="0"/>
+  <ElaboratedType id="_249" type="_138"/>
+  <Field id="_250" name="__data" type="_296" context="_140" access="public" location="f18:88" file="f18" line="88" offset="0"/>
+  <Field id="_251" name="__size" type="_290" context="_140" access="public" location="f18:89" file="f18" line="89" offset="0"/>
+  <Field id="_252" name="__align" type="_181" context="_140" access="public" location="f18:90" file="f18" line="90" offset="0"/>
+  <ElaboratedType id="_253" type="_140"/>
+  <Field id="_254" name="__size" type="_297" context="_142" access="public" location="f18:95" file="f18" line="95" offset="0"/>
+  <Field id="_255" name="__align" type="_181" context="_142" access="public" location="f18:96" file="f18" line="96" offset="0"/>
+  <ElaboratedType id="_256" type="_142"/>
+  <Field id="_257" name="__size" type="_298" context="_145" access="public" location="f18:110" file="f18" line="110" offset="0"/>
+  <Field id="_258" name="__align" type="_181" context="_145" access="public" location="f18:111" file="f18" line="111" offset="0"/>
+  <ElaboratedType id="_259" type="_145"/>
+  <Field id="_260" name="__size" type="_289" context="_147" access="public" location="f18:116" file="f18" line="116" offset="0"/>
+  <Field id="_261" name="__align" type="_180" context="_147" access="public" location="f18:117" file="f18" line="117" offset="0"/>
+  <ElaboratedType id="_262" type="_147"/>
+  <PointerType id="_263" type="_299" size="64" align="64"/>
+  <FundamentalType id="_264" name="void" size="0" align="8"/>
+  <PointerType id="_265" type="_273c" size="64" align="64"/>
+  <PointerType id="_266" type="_264c" size="64" align="64"/>
+  <CvQualifiedType id="_264c" type="_264" const="1"/>
+  <PointerType id="_267" type="_184" size="64" align="64"/>
+  <PointerType id="_268" type="_87" size="64" align="64"/>
+  <Field id="_269" name="isa" type="_300" context="_171" access="public" offset="0"/>
+  <Field id="_270" name="flags" type="_180" context="_171" access="public" offset="64"/>
+  <Field id="_271" name="str" type="_265" context="_171" access="public" offset="128"/>
+  <Field id="_272" name="length" type="_181" context="_171" access="public" offset="192"/>
+  <CvQualifiedType id="_273c" type="_273" const="1"/>
+  <Struct id="_274" name="__va_list_tag" context="_1" location="f0:0" file="f0" line="0" members="_301 _302 _303 _304" size="192" align="64"/>
+  <ArrayType id="_275" min="0" max="1" type="_180"/>
+  <ArrayType id="_276" min="0" max="15" type="_177"/>
+  <ArrayType id="_277" min="0" max="15" type="_109"/>
+  <CvQualifiedType id="_279c" type="_279" const="1"/>
+  <ArrayType id="_280" min="0" max="6" type="_174"/>
+  <PointerType id="_281" type="_305" size="64" align="64"/>
+  <Field id="_282" name="__wseq" type="_306" context="_220" access="public" location="f17:155" file="f17" line="155" offset="0"/>
+  <Struct id="_283" name="" context="_220" location="f17:156" file="f17" line="156" members="_307 _308" size="64" align="32"/>
+  <Field id="_284" name="__wseq32" type="_309" context="_220" access="public" location="f17:160" file="f17" line="160" offset="0"/>
+  <Field id="_285" name="__g1_start" type="_306" context="_224" access="public" location="f17:164" file="f17" line="164" offset="0"/>
+  <Struct id="_286" name="" context="_224" location="f17:165" file="f17" line="165" members="_310 _311" size="64" align="32"/>
+  <Field id="_287" name="__g1_start32" type="_312" context="_224" access="public" location="f17:169" file="f17" line="169" offset="0"/>
+  <ArrayType id="_288" min="0" max="1" type="_176"/>
+  <ArrayType id="_289" min="0" max="3" type="_273"/>
+  <FundamentalType id="_273" name="char" size="8" align="8"/>
+  <ArrayType id="_290" min="0" max="55" type="_273"/>
+  <ElaboratedType id="_291" type="_125"/>
+  <ArrayType id="_292" min="0" max="39" type="_273"/>
+  <ElaboratedType id="_293" type="_126"/>
+  <ArrayType id="_294" min="0" max="47" type="_273"/>
+  <FundamentalType id="_295" name="long long int" size="64" align="64"/>
+  <ElaboratedType id="_296" type="_122"/>
+  <ArrayType id="_297" min="0" max="7" type="_273"/>
+  <ArrayType id="_298" min="0" max="31" type="_273"/>
+  <PointerType id="_300" type="_180c" size="64" align="64"/>
+  <CvQualifiedType id="_180c" type="_180" const="1"/>
+  <Field id="_301" name="gp_offset" type="_176" context="_274" access="public" offset="0"/>
+  <Field id="_302" name="fp_offset" type="_176" context="_274" access="public" offset="32"/>
+  <Field id="_303" name="overflow_arg_area" type="_184" context="_274" access="public" offset="64"/>
+  <Field id="_304" name="reg_save_area" type="_184" context="_274" access="public" offset="128"/>
+  <FundamentalType id="_306" name="long long unsigned int" size="64" align="64"/>
+  <Field id="_307" name="__low" type="_176" context="_283" access="public" location="f17:158" file="f17" line="158" offset="0"/>
+  <Field id="_308" name="__high" type="_176" context="_283" access="public" location="f17:159" file="f17" line="159" offset="32"/>
+  <ElaboratedType id="_309" type="_283"/>
+  <Field id="_310" name="__low" type="_176" context="_286" access="public" location="f17:167" file="f17" line="167" offset="0"/>
+  <Field id="_311" name="__high" type="_176" context="_286" access="public" location="f17:168" file="f17" line="168" offset="32"/>
+  <ElaboratedType id="_312" type="_286"/>
+  <ElaboratedType id="_278" type="_106"/>
+  <ElaboratedType id="_279" type="_107"/>
+  <ElaboratedType id="_299" type="_149"/>
+  <ElaboratedType id="_305" type="_123"/>
+  <File id="f0" name="&lt;builtin&gt;"/>
+  <File id="f1" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types.h"/>
+  <File id="f2" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/sys/types.h"/>
+  <File id="f3" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/clock_t.h"/>
+  <File id="f4" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/clockid_t.h"/>
+  <File id="f5" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/time_t.h"/>
+  <File id="f6" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/timer_t.h"/>
+  <File id="f7" name="/nix/store/9rmf9whh2m8fqlqp859d8pmsb63jarsp-gcc-10.2.0/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include/stddef.h"/>
+  <File id="f8" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/stdint-intn.h"/>
+  <File id="f9" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/uintn-identity.h"/>
+  <File id="f10" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/__sigset_t.h"/>
+  <File id="f11" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/sigset_t.h"/>
+  <File id="f12" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/struct_timeval.h"/>
+  <File id="f13" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/types/struct_timespec.h"/>
+  <File id="f14" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/sys/select.h"/>
+  <File id="f15" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/sys/sysmacros.h"/>
+  <File id="f16" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/pthreadtypes-arch.h"/>
+  <File id="f17" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/thread-shared-types.h"/>
+  <File id="f18" name="/nix/store/637r9rfg768z29sqa9ppajjnkskszrja-glibc-2.27-dev/include/bits/pthreadtypes.h"/>
+  <File id="f19" name="/nix/store/67mrjmffnx8rah5il03azag75d63g96l-file-5.39/include/magic.h"/>
+</CastXML>
